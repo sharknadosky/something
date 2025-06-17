@@ -1,0 +1,57 @@
+/* for the body */
+body {font-family: Arial, Helvetica, sans-serif;
+        font-size: 15px;
+        color:rgb(227, 68, 32);
+        background-color:pink;
+    }
+/* for the number of each listed item*/
+li{color: rgb(0, 101, 42);
+        font-size: 15px;
+        font-style: italic;
+        font-weight: normal;
+    }
+/* for the index nerd part*/
+h2 {color: rgb(0, 101, 42);
+        font-size: 20px;
+        font-style: italic;
+    }
+/* again,for the main number of each listen item so they aren't italicized */
+.resumelistheading {font-weight: bold;
+        color: rgb(0, 0, 0);
+        font-style: normal;
+    }
+/* for custom styles */
+.underline {text-decoration: underline; color: rgb(0, 0, 0);}
+.bold {font-weight: bold; color: rgb(0, 0, 0);}
+.justify {text-align: justify; color: rgb(0, 0, 0);}
+.homebg {
+        background-image: url('../images/ghibli\ wallpaper\ flowers.jpg');
+        background-position: top right;
+    }
+/* for the links */
+a {
+        color: dimgray;
+        text-decoration: none;
+    }
+a:hover {
+       text-decoration: underline;
+       /* font-weight: bold;
+       font-size: 18px; */
+    }
+    a:visited {
+        color:crimson;
+    }
+/* for the boxes around the anime reviews... */
+.box1 {
+    border-width: 8px;
+    border-style: solid;
+    border-color: rgb(91, 130, 236);
+}
+.box2 {
+    padding: 10px;
+    }
+.box3 {
+    margin: 30px;
+}
+/* for the anime reviews paragraphs */
+p {color:rgb(0, 0, 0);}
